@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Leaf, TrendingUp, Package, Users, Award, Bell, Search, MapPin, Phone, Mail, MessageCircle, Menu, X, Cloud, Sun, Droplets } from "lucide-react";
+import { Leaf, TrendingUp, Package, Users, Award, Bell, Search, MapPin, Phone, Mail, MessageCircle, Menu, X, Cloud, Sun, Droplets, Linkedin } from "lucide-react";
 import HeroSection from '@/components/HeroSection';
 import ProductMarketplace from '@/components/ProductMarketplace';
 import AnalyticsDashboard from '@/components/AnalyticsDashboard';
@@ -366,13 +366,55 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-green-100">
                 <li className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" />
-                  <span>WhatsApp: +254700000000</span>
+                  <a
+                    href="https://wa.me/254700000000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    WhatsApp: +254700000000
+                  </a>
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
-                  <span>help@farmconnect.ke</span>
+                  <a
+                    href="mailto:leonard383boma@gmail.com"
+                    className="hover:underline"
+                  >
+                    leonard383boma@gmail.com
+                  </a>
                 </li>
-                <li>Call: 0700 000 000</li>
+                <li className="flex items-center space-x-2">
+                  <X className="h-4 w-4" />
+                    <a 
+                      href="https://X.com/Tweenhaven35" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      @Tweenhaven35
+                    </a>
+                </li>
+                       <li className="flex items-center space-x-2">
+                  <Linkedin className="h-4 w-4" />
+                  <a 
+                    href="https://www.linkedin.com/in/leonard-boma-631aa9234/?originalSubdomain=ke" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Leonard Boma
+                  </a>
+
+                </li>
+                <li>
+                  <a 
+                    href="tel:0755962921" 
+                    className="hover:underline"
+                  > 
+                    Call: 0755962921
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
