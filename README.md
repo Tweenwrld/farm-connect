@@ -8,11 +8,9 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Live Project**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/399f2619-66fe-4f00-9f19-92575cf32fa6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+Simply visit the [Project](https://farm-connect-nexus-platform.lovable.app/) and view.
 
 **Use your preferred IDE**
 
