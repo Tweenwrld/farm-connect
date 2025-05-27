@@ -27,6 +27,8 @@ FarmConnect is a modern agricultural marketplace platform connecting farmers and
    ```
    The app will be available at [http://localhost:8080](http://localhost:8080) by default.
 
+   deployed [Farm-connect](https://farm-connect-tau.vercel.app/)
+
 ### Build for Production
 ```sh
 npm run build
